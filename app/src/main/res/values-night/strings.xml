@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="agenda_shows">Agenda Shows</string>
+    <string name="agenda">Agenda</string>
+    <string name="evento">Evento</string>
+    <string name="local">Local</string>
+    <string name="horario">Horario</string>
+    <string name="data">data</string>
+    <string name="observacao">observação</string>
+</resources>

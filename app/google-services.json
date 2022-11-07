@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "466314294508",
+    "project_id": "agenda-de-shows-d1ba5",
+    "storage_bucket": "agenda-de-shows-d1ba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466314294508:android:c838573fcc5673472aa1c9",
+        "android_client_info": {
+          "package_name": "com.example.calendario_agenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466314294508-a8avn5ia0dqcrkt9sp1jupu66sr022ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.calendario_agenda",
+            "certificate_hash": "e26c8953a9f0b07e9d452cf4103ce5c7b756e45b"
+          }
+        },
+        {
+          "client_id": "466314294508-kqtta9krvuuv6m5gddshjlfcc9magv2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbTdwOtnDQRNdaU25nIZjMdzf6LaiVyC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466314294508-kqtta9krvuuv6m5gddshjlfcc9magv2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

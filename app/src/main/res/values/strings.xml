@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Agenda Shows</string>
+    <string name="agenda_shows">Agenda Shows</string>
+    <string name="agenda">Agenda</string>
+    <string name="evento">Evento</string>
+    <string name="local">Local</string>
+    <string name="horario">Horario</string>
+    <string name="data">data</string>
+    <string name="observacao">observação</string>
+
+    <!--Registrar-->
+    <string name="CriarContaTXT">Criar uma conta</string>
+    <string name="NomeET">Nome</string>
+    <string name="EmailET">Email</string>
+    <string name="SenhaET">Senha</string>
+    <string name="ConfirmaSenhaET">Confirmar senha</string>
+    <string name="RegistrarUsuario">Registrar</string>
+    <string name="SouCadastrado">Ja tenho Cadastro</string>
+
+    <!--Login-->
+    <string name="Btn_Login">Login</string>
+    <string name="Btn_Registro">Registro</string>
+
+</resources>

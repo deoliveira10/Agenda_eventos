@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:text="@string/CriarContaTXT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:gravity="center"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/NomeET"
+                android:hint="@string/NomeET"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <EditText
+                android:id="@+id/EmailET"
+                android:hint="@string/EmailET"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/SenhaET"
+                android:hint="@string/SenhaET"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:passwordToggleEnabled="true"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/ConfirmaSenhaET"
+                android:hint="@string/ConfirmaSenhaET"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:drawableStart="@drawable/ic_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/RegistraUsuario"
+            android:text="@string/RegistrarUsuario"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/SouCadastrado"
+            android:text="@string/SouCadastrado"
+            android:layout_gravity="center"
+            style="@style/CardView.Dark"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
