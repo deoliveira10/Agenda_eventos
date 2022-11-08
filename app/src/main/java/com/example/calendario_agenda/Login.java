@@ -22,7 +22,14 @@ public class Login extends AppCompatActivity {
         Btn_Login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Login.this, MainActivity.class));
+                startActivity(new Intent(Login.this, Entrar.class));
+            }
+        });
+
+        Btn_Registro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Login.this, Registro.class));
             }
         });
 

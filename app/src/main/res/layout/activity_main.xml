@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <CalendarView
         android:id="@+id/calendarView2"
         android:layout_width="403dp"
@@ -40,7 +41,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="342dp"
-        android:layout_height="197dp"
+        android:layout_height="100dp"
         android:background="#BFEEF3"
         android:padding="10dp"
         android:paddingStart="10dp"
@@ -49,8 +50,10 @@
         android:paddingBottom="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_Agenda"
+        app:layout_constraintVertical_bias="0.263"
         tools:itemCount="4" />
 
     <Button
@@ -60,7 +63,18 @@
         android:text="Adicionar"
         app:layout_constraintBottom_toTopOf="@+id/recyclerView"
         app:layout_constraintEnd_toStartOf="@+id/btn_Agenda"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/calendarView2"
-        app:layout_constraintVertical_bias="0.558" />
+        app:layout_constraintVertical_bias="0.406" />
+
+    <Button
+        android:id="@+id/FinalizarSessao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FinalizarSessão"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="676dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

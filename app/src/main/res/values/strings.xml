@@ -21,4 +21,14 @@
     <string name="Btn_Login">Login</string>
     <string name="Btn_Registro">Registro</string>
 
+    <!--Main Activity-->
+    <string name="FinalizarSessão">Sair</string>
+
+    <!--Main Activity-->
+    <string name="iniciarSessaoTXT">Iniciar</string>
+    <string name="EmailLogin">Email</string>
+    <string name="PasswordEntra">Senha</string>
+    <string name="Btn_Entra">Entrar</string>
+    <string name="UsuarioNovoTXT">Nao tem uma conta? Registre</string>
+
 </resources>
