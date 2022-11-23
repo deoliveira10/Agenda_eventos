@@ -31,4 +31,11 @@
     <string name="Btn_Entra">Entrar</string>
     <string name="UsuarioNovoTXT">Nao tem uma conta? Registre</string>
 
+    <!--Adicionar-->
+    <string name="EventoET">Evento</string>
+    <string name="LocalET">Local</string>
+    <string name="HorarioET">Horario</string>
+    <string name="DataET">Data</string>
+    <string name="Btn_Salvar">Salvar</string>
+
 </resources>

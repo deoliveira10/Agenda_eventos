@@ -19,6 +19,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp">
+
+            <EditText
+                android:id="@+id/EventoET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:padding="10dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
         <TextView
             android:textSize="18sp"
             android:id="@+id/Local"
@@ -26,11 +40,38 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp">
+
+            <EditText
+                android:id="@+id/LocalET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:padding="10dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
         <TextView
             android:textSize="18sp"
             android:hint="@string/horario"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp">
+
+            <EditText
+                android:id="@+id/HorarioET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="datetime"
+                android:padding="10dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
             android:textSize="18sp"
@@ -39,6 +80,28 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"/>
+
+        <EditText
+            android:id="@+id/DataET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:inputType="date"/>
+
+        <Button
+            android:id="@+id/Btn_Salvar"
+            android:text="@string/Btn_Salvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+
     </androidx.appcompat.widget.LinearLayoutCompat>
+
+
 
 </ScrollView>
